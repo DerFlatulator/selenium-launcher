@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Simple launcher for selenium server and Opera Driver",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "start-selenium": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
