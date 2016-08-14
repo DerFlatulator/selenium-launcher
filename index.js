@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var selenium = require('selenium-standalone')
 var opera = require('operadriver')
 var pids = []
