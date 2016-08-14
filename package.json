@@ -1,0 +1,33 @@
+{
+  "name": "selenium-launcher",
+  "version": "0.0.0",
+  "description": "Simple launcher for selenium server and Opera Driver",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derflatulator/start-selenium.git"
+  },
+  "keywords": [
+    "selenium",
+    "opera",
+    "firefox",
+    "chrome",
+    "phantomjs",
+    "selenium-standalone",
+    "launcher"
+  ],
+  "author": "Lucas Azzola <lucas.azzola@iress.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derflatulator/start-selenium/issues"
+  },
+  "homepage": "https://github.com/derflatulator/start-selenium#readme",
+  "dependencies": {
+    "operadriver": "0.2.2",
+    "selenium-standalone": "^5.5.0"
+  }
+}
