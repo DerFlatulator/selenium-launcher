@@ -1,6 +1,6 @@
 {
-  "name": "selenium-launcher",
-  "version": "0.0.0",
+  "name": "start-selenium",
+  "version": "0.0.1",
   "description": "Simple launcher for selenium server and Opera Driver",
   "main": "index.js",
   "bin": "index.js",
@@ -29,5 +29,6 @@
   "dependencies": {
     "operadriver": "0.2.2",
     "selenium-standalone": "^5.5.0"
-  }
+  },
+  "devDependencies": {}
 }
