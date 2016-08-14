@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/derflatulator/start-selenium.git"
   },
+  "preferGlobal": true,
   "keywords": [
     "selenium",
     "opera",
