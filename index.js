@@ -12,7 +12,7 @@ forward(res, '[operadriver] ')
 console.log('operadriver running, pid:', res.pid, 'port ')
 pids.push(res.pid)
 
-console.log('selenium-standalong is installing...')
+console.log('selenium-standalone is installing...')
 selenium.install({
     logger: process.argv.indexOf('-v') > -1 ? console.log : function () {}
 }, function (err, drivers) {
